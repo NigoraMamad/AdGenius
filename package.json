@@ -6,22 +6,47 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "echo 'Please replace vnqktvtrqvtyvlqpymgu with your actual Supabase project ID from Settings > General in your Supabase dashboard' && supabase gen types typescript --project-id vnqktvtrqvtyvlqpymgu > src/types/supabase.ts"
   },
   "dependencies": {
+    "@auth/supabase-adapter": "^1.0.0",
+    "@hookform/resolvers": "^3.3.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/supabase-js": "^2.39.0",
+    "@twa-dev/sdk": "^7.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^3.0.6",
+    "framer-motion": "^12.19.2",
+    "lucide-react": "^0.303.0",
+    "next": "15.3.4",
+    "next-auth": "^5.0.0-beta.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-hook-form": "^7.48.2",
+    "react-query": "^3.39.3",
+    "recharts": "^2.8.0",
+    "tailwind-merge": "^2.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "supabase": "^1.127.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
