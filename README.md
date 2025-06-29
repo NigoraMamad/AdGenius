@@ -309,8 +309,7 @@ This project is licensed under the MIT License.
 For support and questions:
 
 - Create an issue in this repository
-- Contact via Telegram: [@your_support_bot]
-- Email: support@adgenius.com
+- Contact via Telegram: @ad_genius_bot
 
 ---
 
